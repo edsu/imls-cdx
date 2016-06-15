@@ -1,0 +1,7 @@
+name: imls-cdx
+dependencies:
+- jupyter
+- scipy
+- seaborn
+- networkx
+- matplotlib
