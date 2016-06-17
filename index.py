@@ -61,7 +61,6 @@ for cdx_file in glob.glob(CDX_ROOT + "*.cdx.gz"):
             continue
         surt_host = m.group(1)
 
-
         # increment stuff in redis
         r.zincrby('hosts', surt_host, 1)
         r.zincrby('size', surt_host, int(size))
