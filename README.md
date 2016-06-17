@@ -3,7 +3,8 @@ These are working programs, data and notebooks from the Museums Group at
 
 Internet Archive did a crawl of museum websites documented by [IMLS] and 
 the [CDX files] for the crawl. We then attempted to process the CDX files to
-learn something about the Museum websites.
+learn something about the Museum websites. The CDX files contained information
+about 219,070,202 HTTP transactions with 109,060 hostnames.
 
 For more checkout the [Notebook] that's here in the respository.
 
